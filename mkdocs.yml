@@ -1,0 +1,58 @@
+site_name: pwd.dev
+site_description: don't get lost in the sauce
+site_url: https://sitename.example
+theme:
+  name: material
+  icon: 
+    logo: fontawesome/solid/terminal
+  favicon: 
+    logo: fontawesome/solid/terminal
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Dark Mode
+      primary: green
+      accent: deep orange
+  features:
+    - navigation.footer
+    - header.autohide
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  social:
+    - icon: simple/github
+      link: https://github.com/j0nnnnn0
+    - icon: simple/linkedin
+      link: https://linkedin.com/in/jonathan
+
+plugins:
+  - search
+  
+  - blog:
+      blog_dir: .
+
+      archive_date_format: YYYY
+      archive_url_date_format: YYYY
+      categories_allowed:
+        - Unset
+        - Home
+        - Office
+      
+      post_url_format: '{slug}'
+  
+  - tags:
+      tags_file: tags.md
+
+  - rss:
+      match_path: "posts/.*"
+      pretty_print: true
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
