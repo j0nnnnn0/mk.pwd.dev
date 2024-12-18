@@ -1,6 +1,6 @@
 site_name: pwd.dev
 site_description: don't get lost in the sauce
-site_url: https://sitename.example
+site_url: https://mk.pwd.dev
 theme:
   name: material
   icon: 
