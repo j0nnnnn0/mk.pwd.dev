@@ -2,9 +2,10 @@
 
 ## For your Home
 
-dsfnbdsjkfhjdkls
+Ideas for your home
+this is very interesting
 
 ## For your Office
 
-dfshajkfhjsdk
+Ideas for your Office
 
