@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://mk.pwd.dev/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://mk.pwd.dev/about/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://mk.pwd.dev/blog/first_post/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://mk.pwd.dev/blog/second_post/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://mk.pwd.dev/blog/third_post/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://mk.pwd.dev/blog/home/home_first_post/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://mk.pwd.dev/blog/office/office_first_post/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+    <url>
+         <loc>https://mk.pwd.dev/tags/</loc>
+         <lastmod>2024-12-18</lastmod>
+    </url>
+</urlset>
