@@ -1,57 +1,60 @@
 ---
 slug: /
-title: Welcome
-icon: fontawesome/solid/terminal
 hide:
   - toc
+  - navigation
+  - title
 ---
-<span style="font-size: 1.2em;">
-<span style="font-size: 1.2em; color:#4cae4f; ">pwd.dev</span> is company based in Canton Schwyz, Switzerand and offers a range of services for your home and office IT.
-From PC build and repair to network support and education, we can help you with all your IT needs.  
+# Home
+
+![Image title](images/aipwd4.jpeg){ width="250" align=right}
+
+<span style="font-size: 1.2em; color:#4cae4f; ">pwd.dev</span> offers a range of IT services for the home and office. We are based in Canton Schwyz, Switzerland.  
+From PC build and repair to network support and education, we provide expertise for all your IT needs.  
+We also offer website hosting and can help you build your own HomeLab.
+</span>
+
+---
+<span style="display: inline-block; font-size: 1.2em; padding: 0.5em; border: 1px solid #ccc; border-radius: 1em;">
+    <a href="/about"">Contact us for a free consultation...</a>
+    <a style="font-size: 1.5em; color:#c0583a; display: inline-block; vertical-align: middle;">:fontawesome-solid-headset:</a>
 </span>
 ---
 
-<span style="font-size: 1.2em;">
-  <a href="/about"">Contact us for a free consultation.</a>
-</span>
-<span style="font-size: 1.5em; color:#c0583a; display: inline-block; vertical-align: middle;">:fontawesome-solid-headset:</span>
+<div class="grid cards" markdown>
 
----
-## For your Home
+-   :material-clock-fast:{ .lg .middle } __Get in Contact__
 
-!!! success inline end "We offer:"
-    - PC Build & Repair  
-    - PC & Laptop Configuration  
-    - HomeLab Build  
-    - WebSite Hosting
-    - Education  
+    ---
 
-![Image title](images/home_gaming.png){ width="200" align=left}
-This is where the home stuff lives.  
-More stuff  
-Even more stuff    
-We can add more here  
-And some more there  
-How does this look?  
-And some more text 
----
-<span style="font-size: 1.2em; color:#4cae4f; display: inline-block; vertical-align: middle;">Choose your flavour</span>
-<span style="font-size: 1.5em; color:#c0583a; display: inline-block; vertical-align: middle;">:material-arrow-up-down:</span>
+    Install [`mkdocs-material`](#) with [`pip`](#) and get up
+    and running in minutes
 
----
+    [:octicons-arrow-right-24: Getting started](#)
 
-## For your Office
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
 
-!!! success inline end "We offer: "
-    - PC Build & Repair  
-    - PC & Laptop Configuration  
-    - Network Support  
-    - WebSite Hosting
-    - Education  
+    ---
 
-![Image title](images/office.png){ width="200" align=left}
-Ideas for your Office.  
-This is where the office stuff lives. 
-We can add more here  
-And some more there  
-How does this look?
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
+
+-   :material-format-font:{ .lg .middle } __Made to measure__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
+</div>
+

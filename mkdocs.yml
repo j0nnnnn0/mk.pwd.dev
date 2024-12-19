@@ -42,13 +42,16 @@ theme:
       primary: green
       accent: deep orange
   features:
-    - navigation.path
-    - header.autohide
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.drawer
+    - navigation.sections
 
 nav:
-  - index.md
-  - home.md
-  - office.md
+  - Home: index.md
+  - What for?:
+    - For Your Home: home.md
+    - For your Office: office.md
   - pricing.md
   - blog/index.md
   - about.md
