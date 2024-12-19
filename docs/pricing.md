@@ -7,7 +7,7 @@ hide:
   - title
 ---
 
-![Image title](images/aipwd.jpeg){ width="250" align=right}
+![Image title](images/aipwd.jpeg){ width="25%" align=right}
 A service for all budgets.
 
 

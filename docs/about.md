@@ -6,11 +6,11 @@ hide:
   - toc
   - navigation
 ---
-![Image title](images/aipwd2.jpeg){ width="250" align=right}
+![Image title](images/aipwd2.jpeg){ width="25%" align=right}
 
 ## Contact us for a free consultation
 
-<form action="http://someothersite.com/" method="post" style="max-width: 600px; margin: 1.5em; padding: 1em; border: 1px solid #ccc; border-radius: 1em;">
+<form action="http://someothersite.com/" method="post" style="width: 60%; margin: 1.5em; padding: 1em; border: 1px solid #ccc; border-radius: 1em;">
     <p style="margin-bottom: 1em;">
         <label for="name" style="margin-bottom: .5em; display: block;">Name:</label>
         <input type="text" id="name" name="name" style="width: 50%; padding: .5em; border: 1px solid #ccc; border-radius: .5em;">
