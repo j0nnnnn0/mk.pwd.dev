@@ -1,6 +1,6 @@
 ---
 slug: blog
-icon: simple/bloglovin
+icon: fontawesome/solid/rss
 title: Blog
 ---
 

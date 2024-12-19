@@ -1,7 +1,7 @@
 ---
 slug: /
-title: Welcome
-icon: material/robot-happy
+title: Home
+icon: fontawesome/solid/terminal
 ---
 
 pwd.dev is your friendly IT provider.  
@@ -10,8 +10,7 @@ Based in Canton Schwyz, we offer a range of services for your home and office IT
 ---
 ## For your Home
 
-!!! tip inline end "Home: "
-    We offer:  
+!!! success inline end "We offer:"
     - PC Build & Repair  
     - PC & Laptop Configuration  
     - HomeLab Build  
@@ -25,13 +24,16 @@ Even more stuff
 We can add more here  
 And some more there  
 How does this look?  
+And some more text 
+---
+
+Choose your flavour
 
 ---
 
 ## For your Office
 
-!!! tip inline end "Office: "
-    We offer:  
+!!! success inline end "We offer: "
     - PC Build & Repair  
     - PC & Laptop Configuration  
     - Network Support  
