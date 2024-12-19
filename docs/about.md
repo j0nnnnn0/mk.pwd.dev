@@ -1,4 +1,8 @@
-# About
+---
+slug: about
+title: About
+icon: material/account-badge-outline
+---
 
 ## Home
 

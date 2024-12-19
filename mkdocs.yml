@@ -1,12 +1,26 @@
 site_name: pwd.dev
 site_description: don't get lost in the sauce
 site_url: https://mk.pwd.dev
+copyright: Copyright &copy; 2024 pwd.dev
 theme:
   name: material
   icon: 
     logo: fontawesome/solid/terminal
-  favicon: 
-    logo: fontawesome/solid/terminal
+    repo: fontawesome/brands/git-alt
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+  favicon: images/terminal-solid.png
   palette:
     # Dark Mode
     - scheme: slate
@@ -16,11 +30,22 @@ theme:
       primary: green
       accent: deep orange
   features:
-    - navigation.footer
+    - navigation.path
     - header.autohide
 
+nav:
+  - index.md
+  - about.md
+  - pricing.md
+  - blog/index.md
+
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -36,10 +61,9 @@ plugins:
   - search
   
   - blog:
-      blog_dir: .
+      archive: false
+      blog_dir: blog
 
-      archive_date_format: YYYY
-      archive_url_date_format: YYYY
       categories_allowed:
         - Unset
         - Home
@@ -48,8 +72,8 @@ plugins:
       post_url_format: '{slug}'
   
   - tags:
-      tags_file: tags.md
-
+      tags_file: blog/tags.md
+  
   - rss:
       match_path: "posts/.*"
       pretty_print: true
@@ -67,3 +91,20 @@ plugins:
       enabled: true
       fallback_to_build_date: false
       enable_creation_date: true
+  
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: false
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
