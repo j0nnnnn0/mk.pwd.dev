@@ -1,11 +1,20 @@
 ---
 slug: /
-title: Home
+title: Welcome
 icon: fontawesome/solid/terminal
+hide:
+  - toc
+---
+<span style="font-size: 1.2em;">
+<span style="font-size: 1.2em; color:#4cae4f; ">pwd.dev</span> is company based in Canton Schwyz, Switzerand and offers a range of services for your home and office IT.
+From PC build and repair to network support and education, we can help you with all your IT needs.  
+</span>
 ---
 
-pwd.dev is your friendly IT provider.  
-Based in Canton Schwyz, we offer a range of services for your home and office IT.
+<span style="font-size: 1.2em;">
+  <a href="/about"">Contact us for a free consultation.</a>
+</span>
+<span style="font-size: 1.5em; color:#c0583a; display: inline-block; vertical-align: middle;">:fontawesome-solid-headset:</span>
 
 ---
 ## For your Home
@@ -26,8 +35,8 @@ And some more there
 How does this look?  
 And some more text 
 ---
-
-Choose your flavour
+<span style="font-size: 1.2em; color:#4cae4f; display: inline-block; vertical-align: middle;">Choose your flavour</span>
+<span style="font-size: 1.5em; color:#c0583a; display: inline-block; vertical-align: middle;">:material-arrow-up-down:</span>
 
 ---
 
@@ -45,4 +54,4 @@ Ideas for your Office.
 This is where the office stuff lives. 
 We can add more here  
 And some more there  
-How does this look?  
+How does this look?

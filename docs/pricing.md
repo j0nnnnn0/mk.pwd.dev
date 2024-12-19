@@ -1,7 +1,9 @@
 ---
 slug: pricing
-title: Pricing
+title: Our Pricing
 icon: material/cart
+hide:
+  - toc
 ---
 
 

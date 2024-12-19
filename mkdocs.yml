@@ -47,9 +47,11 @@ theme:
 
 nav:
   - index.md
-  - about.md
+  - home.md
+  - office.md
   - pricing.md
   - blog/index.md
+  - about.md
 
 markdown_extensions:
   - admonition

@@ -1,7 +1,7 @@
 ---
 slug: blog
 icon: fontawesome/solid/rss
-title: Blog
+title: Ze Blog
 ---
 
 # Blog
