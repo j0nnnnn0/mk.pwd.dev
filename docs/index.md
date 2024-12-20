@@ -9,6 +9,10 @@ hide:
 <div style="text-align: left;">
   <img src="images/aipwd9.jpg" alt="Image title" style="height: 300px;">
 </div>
+<span style="display: inline-block; font-size: 1.2em; padding: 0.5em; border: 1px solid #ccc; border-radius: 1em;">
+    <a href="/contact">Contact us for a free consultation...</a>
+    <a style="font-size: 1.5em; color:#c0583a; display: inline-block; vertical-align: middle;">:fontawesome-solid-headset:</a>
+</span>
 ---
 
 <span style="font-size: 1.2em; color:#4cae4f; ">pwd.dev</span> offers a range of IT services for the home and office. We are based in Canton Schwyz, Switzerland.  
@@ -17,10 +21,7 @@ We also offer website hosting and can help you build your own HomeLab.
 </span>
 
 ---
-<span style="display: inline-block; font-size: 1.2em; padding: 0.5em; border: 1px solid #ccc; border-radius: 1em;">
-    <a href="/about"">Contact us for a free consultation...</a>
-    <a style="font-size: 1.5em; color:#c0583a; display: inline-block; vertical-align: middle;">:fontawesome-solid-headset:</a>
-</span>
+
 ---
 
 <div class="grid cards" markdown>

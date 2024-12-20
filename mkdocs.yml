@@ -1,7 +1,9 @@
 site_name: pwd.dev
 site_description: don't get lost in the sauce
 site_url: https://mk.pwd.dev
+
 copyright: Copyright &copy; 2024 pwd.dev
+
 theme:
   name: material
   icon: 
@@ -47,6 +49,9 @@ theme:
     - navigation.drawer
     - navigation.sections
 
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - Home: index.md
   - What for?:
@@ -54,7 +59,7 @@ nav:
     - For your Office: office.md
   - pricing.md
   - blog/index.md
-  - about.md
+  - contact.md
 
 markdown_extensions:
   - admonition
@@ -74,7 +79,11 @@ extra:
     - icon: simple/linkedin
       link: https://linkedin.com/in/jonathan
 
+extra_javascript:
+  - javascripts/feedback-form.js
+
 plugins:
+
   - search
   
   - blog:

@@ -1,0 +1,51 @@
+/* Add your custom styles here. */
+
+#zammad-feedback-form {
+    display: block;  
+    color: #adb0b5;
+    text-align: left;
+    padding-left: 1em;
+    padding-block: 1em;
+    background-color: #1e2129;
+    width: 60%; 
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+
+#zammad-feedback-form textarea {
+    color: fff;
+    text-align: left;
+    margin: 1.5em; 
+    padding: 1em; 
+    border: 1px solid #ccc;
+    border-radius: .5em;
+    max-width: 80%;
+  }
+
+#zammad-feedback-form input {
+    display: block;
+    color: #fff;
+    text-align: left;
+    margin: 1.5em; 
+    margin-bottom: .5em;
+    padding: 1em; 
+    border: 1px solid #ccc;
+    border-radius: .5em;
+    max-width: 60%;
+  }
+
+#zammad-feedback-form [type="submit"] {
+    display: block;
+    color: #fff;
+    background-color: #4cae4f;
+    padding: 0.5em; 
+    border: 1px solid #ccc;
+    border-radius: .5em;
+    width: 20%;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+#zammad-feedback-form [type="submit"]:hover {
+    background-color: #ff5830;
+}
