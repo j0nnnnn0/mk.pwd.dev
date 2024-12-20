@@ -1,15 +1,14 @@
-name: ci 
+name: test.pwd.dev export
 on:
   push:
     branches:
-      - master 
+      - master
       - main
 permissions:
   contents: write
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    name : 🎉 Deploy
     steps:
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
@@ -19,7 +18,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
@@ -27,4 +26,12 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install -r ./requirements.txt
-      - run: mkdocs gh-deploy --force
+      - run: mkdocs build
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+            server:   ${{ secrets.ftp_server }}
+            username: ${{ secrets.ftp_username }}
+            password: ${{ secrets.ftp_password }}
+            server-dir: ./sites/test.pwd.dev/
+            local-dir: ./site/
