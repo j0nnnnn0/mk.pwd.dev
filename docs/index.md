@@ -5,9 +5,10 @@ hide:
   - navigation
   - title
 ---
-# Home
 
-![Image title](images/aipwd9.jpg){ width="80%" }
+<div style="text-align: left;">
+  <img src="images/aipwd9.jpg" alt="Image title" style="height: 300px;">
+</div>
 ---
 
 <span style="font-size: 1.2em; color:#4cae4f; ">pwd.dev</span> offers a range of IT services for the home and office. We are based in Canton Schwyz, Switzerland.  
