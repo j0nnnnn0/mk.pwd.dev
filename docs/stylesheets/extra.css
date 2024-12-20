@@ -7,9 +7,10 @@
     padding-left: 1em;
     padding-block: 1em;
     background-color: #1e2129;
-    width: 60%; 
+    /* width: 60%;  */
     border: 1px solid #ccc;
     border-radius: 1em;
+    width: 100%;
   }
 
 #zammad-feedback-form textarea {

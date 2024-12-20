@@ -81,6 +81,7 @@ extra:
 
 extra_javascript:
   - javascripts/feedback-form.js
+  - javascripts/chat.js
 
 plugins:
 

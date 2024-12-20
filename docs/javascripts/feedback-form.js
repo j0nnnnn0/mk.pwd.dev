@@ -1,5 +1,6 @@
 $(function() {
-    // Initialize the Zammad feedback form with custom settings
+  
+  // Initialize the Zammad feedback form with custom settings
     $('#zammad-feedback-form').ZammadForm({
       noCSS: false,
       modal: false, // Enable modal mode
