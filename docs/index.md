@@ -7,7 +7,8 @@ hide:
 ---
 # Home
 
-![Image title](images/aipwd4.jpeg){ width="25%" align=right}
+![Image title](images/aipwd9.jpg){ width="80%" }
+---
 
 <span style="font-size: 1.2em; color:#4cae4f; ">pwd.dev</span> offers a range of IT services for the home and office. We are based in Canton Schwyz, Switzerland.  
 From PC build and repair to network support and education, we provide expertise for all your IT needs.  
