@@ -50,14 +50,15 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - pwd: 
-    - Home: index.md
-    - Contact: contact.md
-  - dev:
-    - home.md
-    - office.md
-  - blog:
-    - blog/index.md
+  - home: index.md
+  - pwd:
+    - for your home: home.md
+    - for your office: office.md
+  - dot: 
+    - contact: contact.md
+    - about: about.md
+  - dev: 
+    - blog: blog/index.md
 
 markdown_extensions:
   - admonition
