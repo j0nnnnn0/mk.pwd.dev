@@ -6,9 +6,8 @@ copyright: Copyright &copy; 2024 pwd.dev
 
 theme:
   name: material
+  logo: images/terminal_icon.png
   icon: 
-    logo: fontawesome/solid/terminal
-    repo: fontawesome/brands/git-alt
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
@@ -34,7 +33,7 @@ theme:
       # bug: fontawesome/solid/robot
       # example: fontawesome/solid/flask
       # quote: fontawesome/solid/quote-left
-  favicon: images/terminal-solid.png
+  favicon: images/terminal_icon.png
   palette:
     # Dark Mode
     - scheme: slate
@@ -74,10 +73,10 @@ markdown_extensions:
 
 extra:
   social:
-    - icon: simple/github
-      link: https://github.com/j0nnnnn0
-    - icon: simple/linkedin
-      link: https://linkedin.com/in/jonathan
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/fPTZarfn
+    # - icon: simple/linkedin
+    #   link: https://linkedin.com/in/jonathan
 
 extra_javascript:
   - javascripts/feedback-form.js
