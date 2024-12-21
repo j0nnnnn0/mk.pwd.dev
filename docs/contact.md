@@ -1,6 +1,6 @@
 ---
 slug: contact
-title : contact
+title : Contact
 icon: material/chat
 hide:
   - toc

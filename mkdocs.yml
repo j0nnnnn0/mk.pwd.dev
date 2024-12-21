@@ -6,6 +6,7 @@ copyright: Copyright &copy; 2024 pwd.dev
 
 theme:
   name: material
+  custom_dir: overrides
   logo: images/terminal_icon.png
   icon: 
     admonition:
@@ -43,14 +44,17 @@ theme:
     - navigation.indexes
     - toc.follow
     - navigation.top
+    - header.autohide
+    - announce.dismiss
+
 
 extra_css:
   - stylesheets/extra.css
 
 nav:
-  - home: index.md
-  - contact: contact.md
-  - what for?:
+  - Home: index.md
+  - contact.md
+  - What for?:
     - home.md
     - office.md
   - blog: 

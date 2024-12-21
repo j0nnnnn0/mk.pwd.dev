@@ -1,8 +1,10 @@
 ---
 slug: /
 icon: simple/googlehome 
+title: pwd.dev
 hide:
   - toc
+  - title
 ---
 <style>
   .md-typeset h1,
