@@ -35,30 +35,26 @@ theme:
       # quote: fontawesome/solid/quote-left
   favicon: images/terminal_icon.png
   palette:
-    # Dark Mode
     - scheme: slate
-      toggle:
-        icon: material/weather-night
-        name: Dark Mode
       primary: green
       accent: deep orange
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.drawer
     - navigation.sections
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
 
 extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Home: index.md
-  - What for?:
-    - For Your Home: home.md
-    - For your Office: office.md
-  - pricing.md
-  - blog/index.md
-  - contact.md
+  - home: index.md
+  - contact: contact.md
+  - what for?:
+    - home.md
+    - office.md
+  - blog: 
+    - blog/index.md
 
 markdown_extensions:
   - admonition
@@ -88,6 +84,7 @@ plugins:
   
   - blog:
       archive: false
+      categories : false
       blog_dir: blog
 
       categories_allowed:

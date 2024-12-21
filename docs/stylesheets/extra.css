@@ -1,4 +1,7 @@
 /* Add your custom styles here. */
+.md-grid {
+  max-width: 1440px; 
+}
 
 #zammad-feedback-form {
     display: block;  

@@ -1,10 +1,15 @@
 ---
 slug: /
+icon: simple/googlehome 
 hide:
   - toc
-  - navigation
-  - title
 ---
+<style>
+  .md-typeset h1,
+  .md-content__button {
+    display: none;
+  }
+</style>
 
 <div style="text-align: left;">
   <img src="images/aipwd9.jpg" alt="Image title" style="height: 300px;">

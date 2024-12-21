@@ -6,6 +6,13 @@ hide:
   - toc
 ---
 
+<style>
+  .md-typeset h1,
+  .md-content__button {
+    display: none;
+  }
+</style>
+
 !!! success inline end "We offer:"
     - PC Build & Repair  
     - PC & Laptop Configuration  

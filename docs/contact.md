@@ -1,17 +1,23 @@
 ---
 slug: contact
-title: Contact Us
-icon: material/database-eye-outline
+title : contact
+icon: material/chat
 hide:
   - toc
-  - navigation
 ---
+
+<style>
+  .md-typeset h1,
+  .md-content__button {
+    display: none;
+  }
+</style>
+
+# contact
 
 Free consultation, no strings attached. You can reach us:  
 
 ---
-
-
 
 <div class="grid cards" markdown>
 

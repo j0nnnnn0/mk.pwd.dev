@@ -1,13 +1,18 @@
 ---
 slug: blog
 icon: fontawesome/solid/rss
-title: Ze Blog
+title: ze blog
+hide:
 ---
 
-# Blog
+<style>
+  .md-typeset h1,
+  .md-content__button {
+    display: none;
+  }
+</style>
 
-Here's some blog content.
+Some thoughts on IT and the world around us...  
+Happy Reading :smile:
 
-[//]: # (end)
-```
-
+---
