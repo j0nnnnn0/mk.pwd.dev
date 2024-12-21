@@ -6,35 +6,111 @@ hide:
   - toc
 ---
 
-<style>
-  .md-typeset h1,
-  .md-content__button {
-    display: none;
-  }
-</style>
+# for your home
 
-!!! success inline end "We offer:"
-    - PC Build & Repair  
-    - PC & Laptop Configuration  
-    - HomeLab Build  
-    - WebSite Hosting
-    - Education  
+![Image title](images/home_gaming.png){width="400"} 
 
-![Image title](images/home_gaming.png){ width="200" align=left}
-This is where the home stuff lives.  
-More stuff  
-Even more stuff    
-We can add more here  
-And some more there  
-How does this look?  
-And some more text 
+Ideas for your Home.
 
----
 <div class="grid cards" markdown>
 
-- :fontawesome-brands-html5: __HTML__ for content and structure
-- :fontawesome-brands-js: __JavaScript__ for interactivity
-- :fontawesome-brands-css3: __CSS__ for text running out of boxes
-- :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
+- :fontawesome-solid-computer: __Initial  Setup and Configuration__
+    
+    ---
+
+    - **PC Build and Setup:** Custom PC assembly and configuration tailored to you needs.
+    - **Software Installation and Configuration:** Installing and setting up operating systems and essential software.  
+    - **Network Setup and Configuration:** Setting up home Wi-Fi, routers and other network hardware for optimal performance.  
+    - **Printer and Peripheral Setup:** Installing and configuring printers, scanners, and other devices.  
+
+    [:octicons-arrow-right-24: More ... ](#Initial)
+
+- :material-wifi-cancel: __Device and Network Management__
+  
+    ---
+
+    - **Device Synchronization and Integration:** Ensuring all devices (laptops, smartphones, tablets) work seamlessly together.
+    - **Home Automation and Smart Device Setup:** Configuring smart home devices like thermostats, cameras, and lights.
+    - **Cloud Services Setup:** Assisting with setting up and integrating cloud storage solutions for easy file access and sharing.
+
+    [:octicons-arrow-right-24: More ... ](#Device)
+
+
+- :material-security-network: __Security and Protection__ 
+
+    ---
+    - **Network Security:** Configuring firewalls, VPNs, and other security measures to protect home networks and data.
+    - **Virus and Malware Removal:** Identifying and removing malicious software from devices to restore security.
+    - **Data Backup and Recovery:** Implementing backup solutions and recovering lost or corrupted data.
+
+    [:octicons-arrow-right-24: More ... ](#Security)
+
+
+- :material-help-network: __Troubleshooting and Repair__ 
+
+    ---
+
+    - **Network Security:** Configuring firewalls, VPNs, and other security measures to protect home networks and data.
+    - **Virus and Malware Removal:** Identifying and removing malicious software from devices to restore security.
+    - **Data Backup and Recovery:** Implementing backup solutions and recovering lost or corrupted data.
+
+    [:octicons-arrow-right-24: More ... ](#Troubleshooting)
+
+- :fontawesome-solid-users-line: __Online Presence__ 
+
+    ---
+
+    - **Website Hosting and Maintenance:** Setting up and managing personal websites or blogs, including ongoing maintenance and security.
+    - **Home Lab Setup:** Assisting with the setup of personal IT infrastructure, such as servers or NAS, for learning or experimentation.
+
+    [:octicons-arrow-right-24: More ... ](#Online)
+
+- :material-book-education: __Education and Training__ 
+
+    ---
+
+    - **IT Education and Training:** Offering personalized guidance and training on using software, managing security, or learning new IT skills.
+
+    [:octicons-arrow-right-24: More ... ](#Education)
 
 </div>
+
+## Initial Setup and Configuration {: id="Initial"}
+
+- **PC Build and Setup:** Custom PC assembly and configuration tailored to you needs.
+- **Software Installation and Configuration:** Installing and setting up operating systems and essential software.  
+- **Network Setup and Configuration:** Setting up home Wi-Fi, routers and other network hardware for optimal performance.  
+- **Printer and Peripheral Setup:** Installing and configuring printers, scanners, and other devices.  
+
+---
+## Device and Network Management {: id="Device"}
+
+- **Device Synchronization and Integration:** Ensuring all devices (laptops, smartphones, tablets) work seamlessly together.
+- **Home Automation and Smart Device Setup:** Configuring smart home devices like thermostats, cameras, and lights.
+- **Cloud Services Setup:** Assisting with setting up and integrating cloud storage solutions for easy file access and sharing.
+
+---
+## Security and Protection {: id="Security"}
+
+- **Network Security:** Configuring firewalls, VPNs, and other security measures to protect home networks and data.
+- **Virus and Malware Removal:** Identifying and removing malicious software from devices to restore security.
+- **Data Backup and Recovery:** Implementing backup solutions and recovering lost or corrupted data.
+
+---
+## Troubleshooting and Repair {: id="Troubleshooting"}
+
+- **PC Repair and Troubleshooting:** Diagnosing and fixing hardware and software issues affecting performance.
+- **Troubleshooting Internet Connectivity:** Resolving slow or unreliable internet issues, optimizing Wi-Fi performance.
+
+---
+## Online Presence {: id="Online"}
+
+- **Website Hosting and Maintenance:** Setting up and managing personal websites or blogs, including ongoing maintenance and security.
+- **Home Lab Setup:** Assisting with the setup of personal IT infrastructure, such as servers or NAS, for learning or experimentation.
+
+---
+## Education and Training {: id="Education"}
+
+- **IT Education and Training:** Offering personalized guidance and training on using software, managing security, or learning new IT skills.
+
+---
