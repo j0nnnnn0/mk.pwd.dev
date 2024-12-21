@@ -1,4 +1,6 @@
-# mk.pwd.dev
+<img src="/docs/images/terminal_icon.png" alt="pwd" width="100px"> # mk.pwd.dev 
+
+---
 
 A new home to find your path...
 
