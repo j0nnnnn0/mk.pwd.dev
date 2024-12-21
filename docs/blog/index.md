@@ -2,7 +2,7 @@
 slug: blog
 icon: fontawesome/solid/rss
 title: ze blog
-hide:
+
 ---
 
 <style>

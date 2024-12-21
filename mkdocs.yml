@@ -41,10 +41,8 @@ theme:
       accent: deep orange
   features:
     - navigation.sections
-    - navigation.indexes
+    - navigation.expand
     - toc.follow
-    - navigation.top
-    - header.autohide
     - announce.dismiss
 
 
@@ -52,12 +50,13 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Home: index.md
-  - contact.md
-  - What for?:
+  - pwd: 
+    - Home: index.md
+    - Contact: contact.md
+  - dev:
     - home.md
     - office.md
-  - blog: 
+  - blog:
     - blog/index.md
 
 markdown_extensions:

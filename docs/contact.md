@@ -1,6 +1,6 @@
 ---
 slug: contact
-title : Contact
+title : pwd.dev
 icon: material/chat
 hide:
   - toc
