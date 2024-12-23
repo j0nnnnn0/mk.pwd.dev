@@ -44,6 +44,7 @@ theme:
     - navigation.expand
     - toc.follow
     - announce.dismiss
+    - navigation.top
 
 
 extra_css:
@@ -54,11 +55,11 @@ nav:
   - pwd:
     - for your home: home.md
     - for your office: office.md
-  - dot: 
+  - .: 
+    - blog: blog/index.md
+  - dev: 
     - contact: contact.md
     - about: about.md
-  - dev: 
-    - blog: blog/index.md
 
 markdown_extensions:
   - admonition

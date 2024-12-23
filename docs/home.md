@@ -6,32 +6,29 @@ hide:
   - toc
 ---
 
-# for your home
+# for your home {: id="top"}
 
-![Image title](images/home_gaming.png){width="400"} 
-
-Ideas for your Home.
+Technology should work for you, not the other way around. We can advise on:
 
 <div class="grid cards" markdown>
 
-- :fontawesome-solid-computer: __Initial  Setup and Configuration__
+- :fontawesome-solid-computer: __Setup and Configuration__
     
     ---
-
-    - **PC Build and Setup:** Custom PC assembly and configuration tailored to you needs.
-    - **Software Installation and Configuration:** Installing and setting up operating systems and essential software.  
-    - **Network Setup and Configuration:** Setting up home Wi-Fi, routers and other network hardware for optimal performance.  
-    - **Printer and Peripheral Setup:** Installing and configuring printers, scanners, and other devices.  
+  ![pc build](images/home_gaming.png)
+    - PC and Peripheral Build and Setup  
+    - Software Installation and Configuration  
+    - Network Setup and Configuration  
 
     [:octicons-arrow-right-24: More ... ](#Initial)
 
 - :material-wifi-cancel: __Device and Network Management__
-  
+    
     ---
-
-    - **Device Synchronization and Integration:** Ensuring all devices (laptops, smartphones, tablets) work seamlessly together.
-    - **Home Automation and Smart Device Setup:** Configuring smart home devices like thermostats, cameras, and lights.
-    - **Cloud Services Setup:** Assisting with setting up and integrating cloud storage solutions for easy file access and sharing.
+  ![network](images/network.jpg)
+    - Device Synchronization and Integration  
+    - Home Automation and Smart Device Setup  
+    - Cloud Services Setup 
 
     [:octicons-arrow-right-24: More ... ](#Device)
 
@@ -39,9 +36,10 @@ Ideas for your Home.
 - :material-security-network: __Security and Protection__ 
 
     ---
-    - **Network Security:** Configuring firewalls, VPNs, and other security measures to protect home networks and data.
-    - **Virus and Malware Removal:** Identifying and removing malicious software from devices to restore security.
-    - **Data Backup and Recovery:** Implementing backup solutions and recovering lost or corrupted data.
+    ![security](images/security.jpg)
+    - Network Security:  
+    - Virus and Malware Removal:  
+    - Data Backup and Recovery:  
 
     [:octicons-arrow-right-24: More ... ](#Security)
 
@@ -50,9 +48,9 @@ Ideas for your Home.
 
     ---
 
-    - **Network Security:** Configuring firewalls, VPNs, and other security measures to protect home networks and data.
-    - **Virus and Malware Removal:** Identifying and removing malicious software from devices to restore security.
-    - **Data Backup and Recovery:** Implementing backup solutions and recovering lost or corrupted data.
+    - Network Security  
+    - Virus and Malware Removal  
+    - Data Backup and Recovery  
 
     [:octicons-arrow-right-24: More ... ](#Troubleshooting)
 
@@ -60,8 +58,8 @@ Ideas for your Home.
 
     ---
 
-    - **Website Hosting and Maintenance:** Setting up and managing personal websites or blogs, including ongoing maintenance and security.
-    - **Home Lab Setup:** Assisting with the setup of personal IT infrastructure, such as servers or NAS, for learning or experimentation.
+    - Website Hosting and Maintenance  
+    - Home Lab Setup  
 
     [:octicons-arrow-right-24: More ... ](#Online)
 
@@ -69,7 +67,7 @@ Ideas for your Home.
 
     ---
 
-    - **IT Education and Training:** Offering personalized guidance and training on using software, managing security, or learning new IT skills.
+    - Education and Training  
 
     [:octicons-arrow-right-24: More ... ](#Education)
 
@@ -81,6 +79,8 @@ Ideas for your Home.
 - **Software Installation and Configuration:** Installing and setting up operating systems and essential software.  
 - **Network Setup and Configuration:** Setting up home Wi-Fi, routers and other network hardware for optimal performance.  
 - **Printer and Peripheral Setup:** Installing and configuring printers, scanners, and other devices.  
+
+[:octicons-arrow-right-24: back to top ... ](#top)
 
 ---
 ## Device and Network Management {: id="Device"}

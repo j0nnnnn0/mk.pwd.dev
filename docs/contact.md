@@ -36,7 +36,7 @@ Free consultation, no strings attached. You can reach us:
 
     <!-- Button to trigger the chat -->
     <button class="open-zammad-chat" style="background-color: #4cae4f;display: block;padding: 0.5em;border: 1px solid #ccc;border-radius: .5em;width: 50%;cursor: pointer;margin-bottom: 1em">Click to Chat</button>
-    ....see bottom right corner of the page for chat 
+    ....if no button then  we're offline,  use email or discord.
 
     ---
     ![Image title](images/aipwd11.jpg)
@@ -59,7 +59,7 @@ Free consultation, no strings attached. You can reach us:
 -   :fontawesome-brands-discord:{ .lg .middle } __On Discord__
 
     ---
-    <iframe src="https://e.widgetbot.io/channels/1319970966318874664/1319970967019065356" allow="clipboard-write; fullscreen" height="600" width="800" border-radius="0.5em"></iframe>
+    <iframe src="https://e.widgetbot.io/channels/1319970966318874664/1319970967019065356" allow="clipboard-write; fullscreen" height="570px" width="100%"></iframe>
       ---
 
 </div>
