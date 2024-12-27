@@ -15,7 +15,7 @@ Technology should work for you, not the other way around. We can advise on:
 - :fontawesome-solid-computer: __Setup and Configuration__
     
     ---
-  ![pc build](images/home_gaming.png)
+  ![pc build](images/home_gaming.png){ .skip-lightbox }
     - PC and Peripheral Build and Setup  
     - Software Installation and Configuration  
     - Network Setup and Configuration  
@@ -25,7 +25,7 @@ Technology should work for you, not the other way around. We can advise on:
 - :material-wifi-cancel: __Device and Network Management__
     
     ---
-  ![network](images/network.jpg)
+  ![network](images/network.jpg){ .skip-lightbox }
     - Device Synchronization and Integration  
     - Home Automation and Smart Device Setup  
     - Cloud Services Setup 
@@ -36,7 +36,7 @@ Technology should work for you, not the other way around. We can advise on:
 - :material-security-network: __Security and Protection__ 
 
     ---
-    ![security](images/security.jpg)
+    ![security](images/security.jpg){ .skip-lightbox }
     - Network Security:  
     - Virus and Malware Removal:  
     - Data Backup and Recovery:  

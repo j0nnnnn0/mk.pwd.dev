@@ -13,7 +13,7 @@ hide:
   }
 </style>
 
-![Image title](images/aipwd9.jpg){ width="100%"}
+![Image title](images/aipwd9.jpg){ width="100%" .off-glb "/office"}
 
 Technology should work for you, not the other way around. Whether you need help building or repairing your PC, setting up secure networks, hosting and maintaining websites, or even creating a homelab, we've got you covered.  
 
@@ -29,29 +29,35 @@ Our mission is simple: **To simplify your tech experience**. <a href="/contact">
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __for your home__
+-   :material-account-badge-outline:{ .lg .middle } __for your home__
 
     ---
 
     PC, laptop, peripherals, network, security, training and more ...
 
-    [:octicons-arrow-right-24: Let's go home](home.md)
+    [:octicons-arrow-right-24: Let's go home](/home)
 
--   :fontawesome-brands-markdown:{ .lg .middle } __for your office__
+    ![go home](images/aipwd.jpeg){ .off-glb }
+
+-   :simple-workplace:{ .lg .middle } __for your office__
 
     ---
 
     Network, online presence, security, training and more ...
 
-    [:octicons-arrow-right-24: Let's go to the office](office.md)
+    [:octicons-arrow-right-24: Let's go to the office](/office)
 
--   :material-format-font:{ .lg .middle } __ze blog__
+    ![office](images/aipwd2.jpeg){ .skip-lightbox }
+
+-   :fontawesome-solid-rss:{ .lg .middle } __ze blog__
 
     ---
 
     Read our blog for the latest tech news, tips and tricks ...
 
     [:octicons-arrow-right-24: Let's read the blog](/blog)
+
+    ![blah blah](images/aipwd4.jpeg){ .skip-lightbox }
 
 </div>
 

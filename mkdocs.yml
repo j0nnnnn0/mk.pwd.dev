@@ -55,13 +55,14 @@ nav:
   - pwd:
     - for your home: home.md
     - for your office: office.md
-  - .: 
+  - dot: 
     - blog: blog/index.md
   - dev: 
     - contact: contact.md
     - about: about.md
 
 markdown_extensions:
+  - meta
   - admonition
   - pymdownx.details
   - pymdownx.superfences
@@ -121,6 +122,9 @@ plugins:
   #     enable_creation_date: true
   
   - glightbox:
+      manual: true
+      skip_classes:
+        - skip-lightbox
       touchNavigation: true
       loop: false
       effect: zoom
@@ -129,10 +133,7 @@ plugins:
       height: auto
       zoomable: true
       draggable: true
-      skip_classes:
-        - custom-skip-class-name
       auto_caption: false
       caption_position: bottom
-      background: white
+      background: black
       shadow: true
-      manual: false
